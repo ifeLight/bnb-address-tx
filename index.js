@@ -24,7 +24,7 @@ const fetchTransactions = async (address) => {
 (async () => {
     const rows = []
     rows[0] = 'Date,Amount In BNB,Price, Amount in USD, From, To, Direction'
-    const numeralFormat = '0,0';
+    const numeralFormat = '0,0.00[0000]';
     let totalInflowInUSD = 0;
     let totalOutflowInUSD = 0;
     let totalInflowInBNB = 0;

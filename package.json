@@ -1,0 +1,16 @@
+{
+  "name": "bnb-address-tx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ps.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "decimal.js": "^10.3.1",
+    "numeral": "^2.0.6"
+  }
+}
